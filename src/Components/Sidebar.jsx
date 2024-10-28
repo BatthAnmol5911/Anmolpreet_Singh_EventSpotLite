@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 export default function Sidebar({ isOpen, toggleSidebar }) {
   return (
-    <div className={bg-gray-900 w-60 h-screen p-3 flex flex-col text-white fixed md:relative transition-transform duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}}>
+    <div className={`bg-gray-900 w-60 h-screen p-3 flex flex-col text-white fixed md:relative transition-transform duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}`}>
       <div className='flex items-center gap-2 px-1 py-3'>
         <FaSignalMessenger fontSize={30} />
         <span className="text-neutral-100 text-lg">EventSpotLite</span>
@@ -33,7 +33,7 @@ export default function Sidebar({ isOpen, toggleSidebar }) {
         </ul>
       </nav>
       <div className='mt-auto'>
-        <p className='text-sm'>© 2024 Anmolpreet Singh</p>
+        <p className='text-sm'>© AnmolPreet Singh</p>
       </div>
     </div>
   );
