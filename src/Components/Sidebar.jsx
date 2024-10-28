@@ -33,7 +33,7 @@ export default function Sidebar({ isOpen, toggleSidebar }) {
         </ul>
       </nav>
       <div className='mt-auto'>
-        <p className='text-sm'>© 2024 Jatin Garg</p>
+        <p className='text-sm'>© AnmolPreet Singh</p>
       </div>
     </div>
   );
